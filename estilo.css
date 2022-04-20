@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header,
+footer{
+    height: 40vh;
+    background-color: red;
+}
+
+
+main{
+    height: 20vh;
+    background-color: rgb(209, 217, 53);
+}
+
+.jumbotron{
+    width: 100vw;
+    height: 60vh;
+    background-image: url(./images/jumbo.jpg);
+    background-size: contain;
+}
