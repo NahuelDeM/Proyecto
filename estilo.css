@@ -13,13 +13,19 @@ footer{
 
 
 main{
-    height: 20vh;
     background-color: rgb(209, 217, 53);
 }
 
 .jumbotron{
     width: 100vw;
-    height: 60vh;
-    background-image: url(./images/jumbo.jpg);
-    background-size: contain;
+}
+
+.jumbo{
+    width: 50%;
+    height: 100%;
+    border: red solid 20px;
+}
+
+.imagen__slide{
+    height: 80vh;
 }
