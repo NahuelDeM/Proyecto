@@ -29,3 +29,11 @@ main{
 .imagen__slide{
     height: 80vh;
 }
+
+.sponsors{
+    height: 40vh;
+}
+
+.sponsors{
+    background: blue;
+}
