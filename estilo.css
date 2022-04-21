@@ -13,7 +13,7 @@ footer{
 
 
 main{
-    background-color: rgb(209, 217, 53);
+    background-color: rgba(0, 0, 0, .8);
 }
 
 .jumbotron{
@@ -35,5 +35,5 @@ main{
 }
 
 .sponsors{
-    background: blue;
+    background: #FFF0C9;
 }
