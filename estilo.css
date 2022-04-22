@@ -21,9 +21,8 @@ main{
 }
 
 .jumbo{
-    width: 50%;
     height: 100%;
-    border: red solid 20px;
+    border: red solid 10px;
 }
 
 .imagen__slide{
@@ -36,4 +35,42 @@ main{
 
 .sponsors{
     background: #FFF0C9;
+}
+
+
+
+
+.icono:hover{
+border-radius:50%;
+box-shadow: 0px 0px 15px 15px #ec731e;
+transform: rotate(360deg) scale(1.2) !important;;
+transition: all 1s;
+}
+
+.mapaImagen__90{
+    cursor: pointer;
+}
+
+.mapaImagen__90{
+    content: "culo de perro";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    background-color: #c6ec1e !important;
+    color: #000000;
+    border: #ec731e solid 20px;
+    opacity: 0;
+}
+
+.mapaImagen__90::before{
+    content: "culo de perro";
+}
+
+.mapaImagen__90:hover{
+    opacity: 1;
+}
+
+.mapaImagen__imagen{
+    border-radius: 10px;
 }
