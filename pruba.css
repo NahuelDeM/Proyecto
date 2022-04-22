@@ -48,10 +48,10 @@ section {
 /* Footer links */
 
 .footer1 .footer-links{
-  color:  #cc1616;
-  text-decoration: none;
-   margin: 0 0 10px;
-  padding: 0;
+ background-position: center;
+ color: black;
+
+
 
 }
 
