@@ -12,12 +12,19 @@ footer{
 }
 
 
-main{
+body{
     background-color: rgba(0, 0, 0, .8);
 }
 
+
+
 .jumbotron{
     width: 100vw;
+}
+
+.jumbo__titulo{
+    font-size: 60px;
+    
 }
 
 .jumbo{
@@ -25,16 +32,32 @@ main{
     border: red solid 10px;
 }
 
+.jumbo__diff{
+    justify-content: end !important;
+    align-items: center !important;
+    color: #000000;
+}
+
+.boton{
+    padding: 3px 15px;
+    font-size: 20px;
+}
+
 .imagen__slide{
-    height: 80vh;
+    height: 50vw;
 }
 
 .sponsors{
     height: 40vh;
+    width: 100vw;
 }
 
 .sponsors{
     background: #FFF0C9;
+}
+
+.tope{
+    width: 100vw;
 }
 
 
@@ -52,16 +75,21 @@ transition: all 1s;
 }
 
 .mapaImagen__90{
+    left: 0%;
+    width: max-content;
+    height: max-content;
+    border-radius: 5px;
+    border: #000000 2px solid;
+    right: 0%;
     content: "culo de perro";
     position: absolute;
-    width: 200px;
-    height: 200px;
     z-index: 1;
     background-color: #c6ec1e !important;
     color: #000000;
-    border: #ec731e solid 20px;
     opacity: 0;
 }
+
+
 
 .mapaImagen__90::before{
     content: "culo de perro";
@@ -71,6 +99,40 @@ transition: all 1s;
     opacity: 1;
 }
 
+.mapaImagen__76{
+    cursor: pointer;
+    left: 0%;
+    width: max-content;
+    height: max-content;
+    border-radius: 5px;
+    border: #000000 2px solid;
+    right: 0%;
+    content: "culo de perro";
+    position: absolute;
+    z-index: 1;
+    background-color: #c6ec1e !important;
+    color: #000000;
+    opacity: 0;
+}
+.mapaImagen__76:hover{
+    opacity: 1;
+}
+
+.mapaImagen__76::before{
+    content: "culo de mono";
+}
+
 .mapaImagen__imagen{
     border-radius: 10px;
+}
+
+.tituloss{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 992px) {
+    .mapaImagen{
+        display: none;
+    }
 }
