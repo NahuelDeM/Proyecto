@@ -92,7 +92,7 @@ transition: all 1s;
 
 
 .mapaImagen__90::before{
-    content: "culo de perro";
+    content: "ejemplo1";
 }
 
 .mapaImagen__90:hover{
@@ -119,7 +119,7 @@ transition: all 1s;
 }
 
 .mapaImagen__76::before{
-    content: "culo de mono";
+    content: "ejemplo2";
 }
 
 .mapaImagen__imagen{
