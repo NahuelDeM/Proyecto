@@ -2,18 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
 }
 
-
-header,
-footer{
-    height: 40vh;
-    background-color: red;
+html{
+    scroll-behavior: smooth;
 }
-
 
 body{
-    background-color: rgba(0, 0, 0, .8);
+    background-color: #eef8ff;
 }
 
 
@@ -135,4 +132,118 @@ transition: all 1s;
     .mapaImagen{
         display: none;
     }
+}
+
+.cabecera{
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    bottom: 0;
+    /*
+    background-image: url(https://images.vexels.com/media/users/3/75321/raw/f28bfc0bcdaa7db69e2194a3e321b7a8-diseno-de-fondo-de-ondas-verdes.jpg?w=1321&fmt=webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    */
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    border-top-left-radius: 125px;
+    border-top-right-radius: 125px;
+    padding: 100px 0 30px;
+}
+
+.columnas{
+    padding: 10px;
+}
+
+.logo{
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.columnas h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.email__id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+form{
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+form .far{
+    font-size: 18px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+form input,
+form textarea{
+    width: 93%;
+    background: transparent;
+    color: #ccc;
+    padding: 4px;
+    border: 3px solid rgba(247, 247, 247, 0.096);
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+form button .fas{
+    font-size: 16px;
+    color: #ccc;
+}
+form textarea{
+    width: 100%;
+    margin-top: 10px;
+    margin-left: auto;
+}
+
+.iconos__sociales .fab{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+.Matea{
+    text-align: center;
 }
